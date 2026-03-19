@@ -1,7 +1,6 @@
 # ----------------------------
 # Game state
 # ----------------------------
-STATE_WORLD = "world"
-STATE_SHIP = "ship"
+STATE_GALAXY = "galaxy"
+STATE_SOLAR_SYSTEM = "solar_system"
 STATE_DIALOGUE = "dialogue"
-STATE_DUNGEON = "dungeon"
