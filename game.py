@@ -70,7 +70,7 @@ def main() -> None:
     log.add(f"A spaceship has landed at ({sx}, {sy}).")
 
     # Save map to file for debugging/demo purposes. 
-    save_map(tilemap, objs, "non_hm/TEXT_BASED_EXPERIMENT/data/saved_map.txt")  
+    #save_map(tilemap, objs, "project-python/TEXT_BASED_EXPERIMENT/data/saved_map.txt")  
 
     # Player spawn (not on ship)
     px, py = find_spawn(tilemap, objs)

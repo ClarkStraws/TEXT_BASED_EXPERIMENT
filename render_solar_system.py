@@ -23,5 +23,5 @@ def load_solar_system(filename: str) -> SolarSystem:
 
 def get_current_solar_system() -> SolarSystem:
     # For now, just load a hardcoded solar system from a JSON file
-    return load_solar_system('non_hm/TEXT_BASED_EXPERIMENT/data/solar_system.json')
+    return load_solar_system('data/solar_system.json')
 

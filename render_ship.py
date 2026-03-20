@@ -55,7 +55,7 @@ def draw_solar_system_view(screen: pygame.Surface, play_rect: pygame.Rect, font:
         py = int(window.top + window.height / 2 + planet.y * 20)
         pygame.draw.circle(screen, planet.color, (px, py), max(3, int(planet.size)))
         # draw orbit pattern
-        pygame.draw.circle(screen, (40, 120, 140), (window.left + window.width // 2, window.top + window.height // 2), int(((planet.x ** 2 + planet.y ** 2) ** 0.5) * 10), 1)
+        pygame.draw.circle(screen, (40, 120, 140), (window.left + window.width // 2, window.top + window.height // 2), int(((planet.x ** 2 + planet.y ** 2) ** 0.5) * 20), 1)
 
 
     wtitle = font.render("VIEWPORT", True, (190, 210, 215))
